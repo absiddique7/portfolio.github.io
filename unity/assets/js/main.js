@@ -154,7 +154,7 @@
     jQuery(window).load(function(){
         
          //preloder
-       jQuery(".preloader").delay(8000).fadeOut("slow");
+       jQuery(".preloader").delay(1000).fadeOut();
         
         //scrollup
           $(window).scroll(function () { 

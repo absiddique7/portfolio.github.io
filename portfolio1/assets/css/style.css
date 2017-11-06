@@ -927,7 +927,7 @@ a.more-button:hover{
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 40px;
-  z-index: 9999999999999;
+  z-index: 999;
   line-height: 37px;
 }
 

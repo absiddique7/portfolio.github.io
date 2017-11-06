@@ -1,0 +1,399 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+/* -------------------------
+4. featured-area 
+---------------------------- */
+.featured-area {}
+/*
+
+*/
+.single-product{}
+.product-img {
+  overflow: hidden;
+  position: relative;
+}
+.product-img a{display:block}
+.product-img > a::before {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  content: "";
+  display: inline-block;
+  height: 220%;
+  left: -120%;
+  position: absolute;
+  top: -90%;
+  transform: rotate(45deg);
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+  width: 80%;
+  z-index: 3;
+}
+.single-product:hover a::before {
+  left: -56%;
+}
+.product-img > a::after {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out 0s;
+  width: 100%;
+  z-index: 2;
+}
+.single-product:hover a::after {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+span.tag-line {
+  background: #222222 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 11px;
+  height: 38px;
+  line-height: 38px;
+  position: absolute;
+  right: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 12px;
+  width: 38px;
+  z-index: 10;
+}
+.single-product:hover a::before{opacity:.6} 
+.product-img img{
+    height: 500px;
+    width: 100%;
+}
+img.secondary-img {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease 0s;
+}
+.single-product:hover img.secondary-img {opacity:1;}
+.product-action {
+  bottom: 80px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+  z-index: 10;
+}
+.single-product:hover .product-action {
+  opacity: 1;
+  visibility: visible;
+  bottom:10px
+}
+.button-top {
+  overflow: hidden;
+}
+.button-top a {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+}
+.button-top a:hover{background: #fe4847;color:#fff}
+.button-cart {
+  display: inline-block;
+}
+.button-cart button {
+  background: #fe4847 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  font-weight: 600;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 5px;
+  padding: 0 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.button-cart button:hover{background: #fff;color:#000}
+.button-cart button i {
+  margin-right: 7px;
+}
+.pro-rating {
+  margin-bottom: 10px;
+}
+.pro-rating i {
+  color: #212121;
+}
+/*
+.product-content {
+  padding: 15px 12px 0;
+  text-align: center;
+}
+.product-content h3 {
+  font-family: "Raleway",sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.product-content h3 a {
+  color: #555;
+}
+.product-content h3 a:hover{color: #fe4847;}
+.price{}
+.price span {
+  color: #212121;
+  font-family: "Montserrat",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.price span.old {
+  color: #b5b5b5;
+  font-size: 14px;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+*/
+
+
+
+
+
+
+
+/* -------------------------
+7. latest-blog-area
+---------------------------- */
+
+.blog-img {
+  position: relative;
+}
+.blog-img a {
+  position: relative;
+  display: block;
+}
+.blog-img img {
+  width: 100%;
+}
+/*
+.blog-date {
+  background: #fff none repeat scroll 0 0;
+  color: #181818;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  height: 55px;
+  line-height: 14px;
+  padding-top: 14px;
+  position: absolute;
+  right: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  transition: all 0.3s ease-in 0s;
+  width: 55px;
+  z-index: 9;
+}
+.blog-date:after {
+  border: 4px solid #fff;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease 0s;
+}
+.blog-wrapper:hover .blog-date:after{bottom: -8px;
+left: -8px;
+right: -8px;
+top: -8px;}
+*/
+.blog-img a::before, .blog-img a::after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  transform: scaleY(0);
+  transition: all 0.6s ease 0s;
+  width: 100%;
+}
+.blog-img a::after {
+  transform: scaleX(0);
+}
+.blog-wrapper:hover a::before {
+ transform: scaleY(1);  
+}
+
+
+
+/* -------------------------
+9. footer
+---------------------------- */
+
+ul.instagram-thumb{margin: 0 -10px;}
+ul.instagram-thumb li{float: left;
+margin-bottom: 10px;
+margin-top: 10px;
+padding: 0 10px;
+width: 33.3333%;}
+.instagram-thumb img {
+  width: 100%;
+}
+.instagram-thumb a {
+  position: relative;
+  display: block;
+}
+ul.instagram-thumb li a::before, ul.instagram-thumb li a::after {
+  background-color:#000;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  opacity:0;
+  top: 0;
+  transform: scaleY(0);
+  transition: all 0.5s ease 0s;
+  width: 100%;
+}
+ul.instagram-thumb li a::after{transform: scaleX(0);}
+ul.instagram-thumb li a:hover:before{transform: scaleY(1);opacity:.4;}
+ul.instagram-thumb li a:hover:after{transform: scaleX(1);opacity:.4;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------
+4. banner-area
+---------------------------- */
+.banner-area{}
+.single-banner {
+  position: relative;
+}
+.single-banner{
+  display: block;
+  position: relative;
+}
+.single-banner:after, .single-banner:before {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 100%;
+  z-index: 1;
+}
+.single-banner:before {
+  left: 5px;
+  top: 5px;
+}
+.single-banner > a::before {
+
+}
+.single-banner:hover a::before{opacity:.5}
+.single-banner img {
+  width: 100%;
+}
+.single-banner:hover .banner-caption{opacity:1}
+
+.banner-caption {
+  bottom: 20px;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  right: 20px;
+  text-align: right;
+  transition: all 0.3s ease 0s;
+  z-index: 10;
+}
+
+
+.shop-cat-subtitle {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.banner-caption a {
+  color: #fff;
+  display: block;
+}
+.banner-caption a:hover{color:#fe4847}
+.shop-cat-sale {
+  clear: both;
+  display: block;
+}
+
+.banner-thumb{display:block;position:relative}
+.banner-thumb::after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out 0s;
+  width: 100%;
+}
+.single-banner:hover .banner-thumb::after{opacity:1;}
+.single-banner:hover .banner-thumb:after {
+  opacity:rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+}
+
+
+

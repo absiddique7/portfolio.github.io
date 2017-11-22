@@ -6,6 +6,14 @@
         //wow.js
         new WOW().init();
         
+        
+        //scroll-spy
+        $('body').scrollspy({
+            target: '.navbar-collapse',
+            offset:95
+        });
+        
+        
         //popup
          $('.img-poppu').magnificPopup({
                     type: 'image',
@@ -38,8 +46,8 @@
         
       //counter-up
         $('.counter').counterUp({
-            delay: 10,
-            time: 3000
+            delay: 15,
+            time: 4000
         });
         
         
@@ -68,6 +76,15 @@
                     type: 'iframe'
                 });
         
+             //mixitup
+       $('#Container').mixItUp();  
+        
+          $('.img-poppu').magnificPopup({
+                    type: 'image',
+                    gallery:{
+                        enabled:true
+                    }
+                });
        
 
         

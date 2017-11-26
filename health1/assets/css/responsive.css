@@ -1,0 +1,182 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .product-tab ul.product-nav li a {
+  padding: 15px 44px;
+}
+    
+/*===>about-page<====*/
+    .about-info h2, .about-vission-area h2 {
+        padding-bottom: 0;
+    }
+    .about-info {
+      padding: 20px 0;
+    }
+    .about-info h2, .about-vission-area h2 {
+      padding-bottom: 0;
+      margin: 20px 0;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .logo img {
+      padding: 10px 0;
+      width: 45px;
+    }
+    .logo span {
+      font-size: 15px;
+    }
+    .main-menu ul li a {
+      padding: 29px 0 29px 15px;
+    }
+    
+    .slide-bg-img {
+      height: 500px;
+    }
+    .slider-text {
+      padding: 153px 0 0;
+    }
+    .slider-active .owl-dots {
+      bottom: -60px;
+    }
+    .product-tab ul.product-nav li a {
+      padding: 15px 17px;
+    }
+    .news-search form input {
+      width: 70%;
+    }
+    .news-search form button {
+      width: 30%;
+    }
+    
+     .about-info {
+      padding: 20px 0;
+    }
+    .about-info h2, .about-vission-area h2 {
+      padding-bottom: 0;
+      margin: 20px 0;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+     .call-area span {
+      margin: 0;
+    }
+    .social-icon {
+      text-align: center;
+    }
+    
+    .logo {
+      padding: 5px 0;
+     text-align: center;
+    }
+    .logo img{width: 40px;}
+    .slide-bg-img {
+      height: 450px;
+    }
+     .slider-text {
+      padding: 120px 0 0;
+    }
+    .slider-text h1 {
+      font-size: 20px;
+    }
+    .slider-text p {
+      width: 100%;
+    }
+     .slider-active .owl-dots {
+      bottom: -60px;
+    }
+    .section-title p {
+      width: 100%;
+    }
+   .doctor-slider .owl-nav{
+        text-align: center;
+    }
+   .doctor-slider .owl-nav div {
+       position: relative;
+       display: inline-block;
+       margin: 0 10px;
+       top: 7px;
+    }
+
+    .doctor-slider .owl-nav div.owl-prev {
+      right: 5px;
+    }
+    .product-tab ul.product-nav li a {
+      font-size: 16px;
+      padding: 5px 4px;
+    }
+    .product-tab ul.product-nav li {
+      display: inline-block;
+      margin: 15px 0;
+    }
+    .product-tab ul.product-nav li.active a::before {
+      top: 31px;
+    }
+    .single-counter {
+      padding: 14px 0;
+    }
+    .single-counter h2 {
+      font-size: 40px;
+    }
+    
+    .schedul-table table th {
+      font-size: 12px;
+    }
+    
+    .schedul-table table td {
+      font-size: 10px;
+    }
+    .footer-area {
+      padding: 20px 0;
+    }
+    .footer-info h3 {
+      padding-top: 25px;
+      margin-top: 20px;
+    }
+    .footer-info > p {
+      padding-bottom: 0;
+    }
+    
+    /*about-page*/
+    .contact-slide-area {
+      height: 300px;
+    }
+    .servise-slide {
+      padding: 81px 0;
+    }
+    .about-info h2, .about-vission-area h2 {
+     
+      padding-bottom: 0;
+    }
+    .about-vission-area h2 { margin: 20px 0;}
+    .about-info {
+      padding: 20px 0;
+    }
+    
+    /*servise-page*/
+    .servise-area  {
+      height: 300px;
+    }
+    
+    /*doctore-page*/
+    .doctore-area{
+        height: 300px;
+    }
+    /*blog-area*/
+    .blog-area {
+      height: 300px;
+    }
+    
+    /*contact-page*/
+    .main-contact-area .appointment{
+        margin: 20px 0;
+    }
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

@@ -1,0 +1,137 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+#sync1 .item h1 img{
+    height: 350px !important;
+}
+
+
+#sync1 {
+  .item {
+    background: #0c83e7;
+/*    padding: 80px 0px;*/
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+}
+
+#sync1 .item img{
+	background-color:#000000;
+	height:450px;
+}
+
+#sync2 {
+  .item {
+    
+    
+    
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    h1 {
+      font-size: 18px;
+    }
+  }
+  .current .item{
+ 
+  }
+}
+
+#sync2 .item img{	
+	height:150px;
+	padding:0 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+#sync1.owl-theme {
+	  position: relative;
+	 
+}
+
+.owl-prev, .owl-next{
+	position:absolute;
+	top:50%;
+	margin-top:-33px;
+	background:#000;
+	width:50px;
+	height:50px;
+	text-align:center;
+	line-height:60px;
+}
+
+.owl-prev {
+    left: 20px;
+  }
+  .owl-next {
+    right: 20px;
+  }
+
+.douel-text{
+    margin-top: -45px;
+    position: relative;
+    float: right;
+    
+}
+
+.douel-text a{
+    text-align: right;
+    display: inline-block;
+    padding: 5px 8px;
+    background: #000;
+    color: #fff;
+    transition: all .3s;
+}
+
+.douel-text a:hover{
+    background: #36B945;
+}
+

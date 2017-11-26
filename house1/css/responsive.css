@@ -1,0 +1,246 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+    .pro-background{
+        width: 370px;
+        height: 260px;
+        margin-top: -185px;
+        margin-left: 46px;
+        }
+
+    .back-text-2{padding: 20px 0 0 0;}
+
+    .back-text-2 a{margin: 15px 0 0px 0;}
+
+    .agent-slider {padding: 120px  0 0 0;}
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .main-menu ul li a{
+        padding: 40px 0 40px 30px;
+    }
+    .slider-area{height: 450px;}
+    .our-slider{padding-top: 120px;}
+    .history-area{height: 520px;}
+    .history-text{padding: 0px;}
+    .history-text h2{font-size: 20px;}
+    .read-more{margin: 20px 0;} 
+    
+    .pro-img-area{
+        margin: 0 0 60px 0;
+    }
+    .pro-background{
+        width: 265px;
+        height: 200px;
+        margin-top: -190px;
+        margin-left: 46px;
+        }
+    .back-text-1{
+       padding: 20px 0 0 0;
+    }
+    .back-text-2{
+       padding: 10px 0 0 0;
+     }
+    .back-text-2 a{
+    padding: 5px 8px;
+    margin: 8px 0 0px 0;}
+    
+    .pro-icon-area{
+        margin-top: -200px;
+    }
+    
+    .agent-slider {
+        padding: 100px  0 0 0;
+    }
+    
+     .f-notified form input {
+          width: 100%;
+        }
+        .f-notified form button {
+          float: left;
+          width: 40%;
+          margin: 10px 0;
+        }
+
+    
+    /*about-page*/
+    
+    .douel-form{
+        margin: 20px 0 0 0;
+    }
+    
+
+    
+    .form-box form button {
+       margin-left: 250px;
+    }
+
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    .logo{
+        text-align: center;
+    }
+    .header-top-area{
+        height: 150px;
+    }
+   .sosial-area a,
+   .cell-area a,
+   .location-area a{
+        padding: 0 2px  0 2px;
+        font-size: 14px;
+    }
+    
+   .signin-area .btn-primary {
+        padding: 0;
+        margin: 10px 0;
+    }
+    .signin-area {
+        margin: 10px 0 0 0px;
+    }
+    
+    .slider-area{
+        height: 350px;
+    }
+    .our-slider{
+        padding-top: 100px;
+    }
+    .our-slider h4{
+        font-size: 20px;
+    }
+    .our-slider h1{
+        font-size: 25px;
+    }
+    .our-slider p{
+        line-height: 16px;
+    }
+    
+    .history-area{
+        height: auto;
+    }
+    .history-text{
+        padding: 10px 0;
+    }
+    .history-text h2{
+        font-size: 25px;
+    }
+    .history-img{
+        margin: 0 0 50px 0;
+    }
+    
+    .pro-icon-area a{
+        height: 40px;
+        width: 40px;
+        margin: 5px 0;
+        padding-top: 1px;
+        border-radius: 3px;
+        
+    }
+    
+    .pro-img-area{
+        margin: 0 0 50px 0;
+    }
+    .pro-background{
+        width: 210px;
+        height: 160px;
+        margin-top: -150px;
+        margin-left: 46px;
+        }
+    .back-text-1{
+       padding: 5px 0 0 0;
+    }
+    .back-text-1 a{
+        padding: 5px 0;
+    }
+    .back-text-1 h2{
+        font-size: 20px;
+    }
+    .back-text-2{
+       padding: 5px 0 0 0;
+     }
+    .back-text-2 h3{
+        font-size: 18px;
+    }
+    .back-text-2 a{
+    padding: 3px 5px;
+    margin: 0px 0 0px 0;}
+    
+    .pro-icon-area{
+        margin-top: -165px;
+    }
+    
+    .agent-slider {
+        padding: 50px  0 0 0;
+    }
+    .agent-slider p{
+        color: #fff;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .portfolio-menu ul li {
+      font-size: 14px;
+      margin: 0 0px 10px;
+      padding: 7px 15px;
+    }
+    .portfolio-menu {
+      text-align: center;
+    }
+    
+    .blog-padding{
+        margin: 0 0 20px 0;
+    }
+    
+    .footer{
+        padding: 0 0 50px 0;
+    }
+    .main-footer{ text-align: center;}
+    .f-contact{ text-align: center;}
+    
+ 
+    .f-notified{
+        text-align: center;
+    }
+    
+    .f-notified h4{
+        padding: 20px  0 0px 0;
+    }
+    
+    /*about-page*/
+    
+    .property-slide-text p{
+        width: 280px;
+    }
+    #sync1 .item h1 img{
+        height: 300px !important;
+    }
+    #sync2 .item img{	
+        height:100px;
+    }
+    
+    .form-box form input {
+      width: 100%;
+    }
+    .form-box form button {
+      max-width: 200px;
+    }
+    
+    .featured-area{
+    }
+    .feat-t1{
+        width: 100px;
+    }
+    
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+}

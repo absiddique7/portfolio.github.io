@@ -1,0 +1,213 @@
+/*=====> xl device 1200px <=====*/
+@media (min-width: 1200px) and (max-width: 1500px){
+    
+    .features-bg {
+      margin-right: 25px;
+    }
+    
+    
+}
+
+
+/*=====> lg device 992px <=====*/
+@media (min-width: 992px) and (max-width: 1200px){
+    
+       .main-menu li a {
+      padding: 17px 5px;
+    }
+    .features-bg {
+      margin-right: 11px;
+      width: 471px;
+    }
+
+} 
+
+
+/*=====> md device 768px <=====*/
+@media (min-width: 768px) and (max-width: 991px){
+    .logo a {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+    .main-menu li a {
+      font-size: 12px;
+      padding: 19px 2px;
+    }
+    .about-area {
+      height: 1330px;
+    }
+    .sports-area {
+      margin-bottom: 35px;
+    }
+    .signle-features {
+      display: inline-block;
+        width: 100%;
+    }
+    .features-bg {
+       display: none;
+    }
+    .features-headline h5, .features-headline h3 {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .vedio-bg {
+      width: 100%;
+      margin-top: 30px;
+    }
+    .testimonial-headline {
+      margin-top: 30px;
+    }
+    .footer-widget {
+      margin-bottom: 30px;
+    }
+    .footer-widget .logo a{
+        font-size: 20px;
+    }
+    
+} 
+
+
+
+
+
+/*=====> extra small device 767px <=====*/
+@media (max-width: 767px){
+    
+    .full-menu-area {
+      background: none;
+    }
+    
+    .lang-select {
+      float: left;
+      margin-left: 33px;
+    }
+    
+    .slider-area {
+      min-height: 476px;
+    }
+    
+   .signup-area {
+      float: none;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .slider-text h2 {
+      font-size: 21px;
+      margin-top: 84px;
+    }
+    .slider-text a {
+      margin-right: 0;
+      padding: -1px 21px;
+    }
+    .section-title p {
+      width: 250px;
+    }
+    .about-area {
+        height: auto;
+    }
+    .downloard-area::after {
+      background: none;
+      height: none;
+    }
+    .downloard-bg {
+        margin-top: 0;
+        padding: 15px 30px;
+    }
+    .d-icon-tetails {
+      margin-bottom: 20px;
+    }
+    .sports-area {
+      margin-bottom: 35px;
+    }
+    .counter-area {
+      height: auto;
+    }
+    .single-counter {
+      padding: 20px 0;
+    }
+    .features-bg {
+      background: none;
+    }
+    .features-headline h3 {
+      font-size: 25px;
+    }
+    .signle-features {
+      width: 100%;
+    }
+    .signle-features p {
+      margin-top: 10px;
+    }
+    .partner-details {
+      margin-bottom: 30px;
+    }
+    .p-icon-area img {
+      padding: 0 85px;
+    }
+    .h3-color h3{
+        color: #fff;
+    } 
+    .join-area {
+      margin-bottom: 20px;
+    }
+    .vedio-bg {
+      height: 290px;
+      width: 100%;
+    }
+    .vedio-bg a {
+      left: 41%;
+    }
+    .signle-latests-sports {
+      padding: 25px 10px;
+      margin-bottom: 30px;
+    }
+    .testimonial-form input {
+      width: 100%;  
+    }
+    .testimonial-form textarea {
+      width: 100%;  
+    }
+    .testimonial-form {
+      margin-bottom: 30px;
+    }
+    .main-collapse-area .card .card-header h5 button h4 {
+      font-size: 10px;
+    }
+    .card-body {
+      font-size: 10px;
+    }
+    .main-collapse-area .card .card-header h5 i.fa {
+      margin: -15px -2px 7px 9px;
+    }
+    .footer-widget {
+      margin-bottom: 30px;
+    }
+
+    
+}  
+
+
+/*=====> sm device 550px <=====*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    .downloard-bottom-area {
+      position: relative;
+      margin-top: -100px;
+    }
+    
+    .p-icon-area img {
+      padding: 0 10px;
+    }
+    .vedio-bg a {
+      left: 43%;
+    }
+    .signle-latest-details h3 {
+      font-size: 18px;
+    }
+    .section-title p {
+      width: 402px;
+    }
+
+    
+}
+
+
